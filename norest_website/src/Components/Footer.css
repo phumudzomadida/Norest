@@ -1,0 +1,46 @@
+.footer-container{
+    height: 60vh;
+    width: 100%;
+    background-color: rgba(0, 0, 32, 0.938);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+.footer-column{
+    height: max-content;
+    width: 300px;
+    align-items: start;
+}
+.contacting-email{
+    border: none;
+    border-style: none;
+    background-color: white;
+    height: 30px;
+    width: 200px;
+    color: #212121;
+}
+.message-to-me{
+    width: 200px;
+    height: 100px;
+    margin: 5px 0 0 0;
+    color: #212121;
+    background-color: white;
+    text-align: start;
+    border-style: none;
+    border: none;
+}
+.contact-me{
+    display: block;
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    background-color: blue;
+    border: none;
+    margin-top: 5px;
+}

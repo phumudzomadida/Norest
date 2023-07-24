@@ -1,0 +1,49 @@
+.about-container{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   height: max-content;
+   align-items: center;
+   justify-content: center;
+   
+}
+.about-header{
+    height: 70px;
+    width: 100%;
+    text-align: center;
+
+
+}
+.blue-line{
+    width: 90%;
+    height: 5px;
+    background-color: blue;
+    border-radius: 5px;
+}
+.inner-container{
+    margin: 50px;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+.empty-div{
+    height: 300px;
+    width: 200px;
+}
+.norest-about-text{
+    height: 300px;
+    width: 200px;
+}
+.norest-about-image{
+    background-image: url('../Images/Norest-painting.jpeg');
+    background-size: cover;
+    height: 300px;
+    width: 200px;
+}
+.norest-hobbies{
+    height: 300px;
+    width: 200px;
+}
